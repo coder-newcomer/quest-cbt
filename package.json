@@ -1,9 +1,9 @@
 {
   "name": "quest-cbt",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An Electron application with Solid and TypeScript",
   "main": "./out/main/index.js",
-  "author": "example.com",
+  "author": "coder-newcomer",
   "homepage": "https://electron-vite.org",
   "scripts": {
     "format": "prettier --write .",

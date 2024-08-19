@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Create a report to help PROJECT_NAME to improve
+about: Create a report to help this project to improve
 title: "bug: "
 labels: "bug"
 assignees: ""
@@ -8,7 +8,7 @@ assignees: ""
 
 # Bug Report
 
-**PROJECT_NAME version:**
+**this project version:**
 
 <!-- Please specify commit or tag version. -->
 
