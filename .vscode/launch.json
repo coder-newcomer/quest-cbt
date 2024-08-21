@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node-terminal",
+      "name": "Debug Current JS File (node)",
+      "request": "launch",
+      "command": "node -- ${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Debug Current TS File (ts-node)",
+      "request": "launch",
+      "command": "ts-node -- ${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}"
+    },
+    {
       "name": "Debug Main Process",
       "type": "node",
       "request": "launch",
@@ -10,7 +24,9 @@
       "windows": {
         "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron-vite.cmd"
       },
-      "runtimeArgs": ["--sourcemap"],
+      "runtimeArgs": [
+        "--sourcemap"
+      ],
       "env": {
         "REMOTE_DEBUGGING_PORT": "9222"
       }
@@ -23,14 +39,17 @@
       "webRoot": "${workspaceFolder}/src/renderer",
       "timeout": 60000,
       "presentation": {
-        "hidden": false
+        "hidden": true
       }
     }
   ],
   "compounds": [
     {
       "name": "Debug All",
-      "configurations": ["Debug Main Process", "Debug Renderer Process"],
+      "configurations": [
+        "Debug Main Process",
+        "Debug Renderer Process"
+      ],
       "presentation": {
         "order": 1
       }
