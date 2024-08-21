@@ -29,6 +29,9 @@
       ],
       "env": {
         "REMOTE_DEBUGGING_PORT": "9222"
+      },
+      "presentation": {
+        "order": 1
       }
     },
     {
@@ -39,7 +42,9 @@
       "webRoot": "${workspaceFolder}/src/renderer",
       "timeout": 60000,
       "presentation": {
-        "hidden": true
+        "hidden": true,
+        "group": "",
+        "order": 2
       }
     }
   ],
@@ -51,7 +56,7 @@
         "Debug Renderer Process"
       ],
       "presentation": {
-        "order": 1
+        "order": 3
       }
     }
   ]

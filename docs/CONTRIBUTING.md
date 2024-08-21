@@ -5,10 +5,6 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 ## Development environment setup
 
-> **[?]**
-> Proceed to describe how to setup local development environment.
-> e.g:
-
 To set up a development environment, please follow these steps:
 
 1. Clone the repo
@@ -17,11 +13,32 @@ To set up a development environment, please follow these steps:
    git clone https://github.com/coder-newcomer/quest-cbt
    ```
 
-2. TODO
+2. Then install dependencies, recommended using [pnpm](https://pnpm.io/)
+
+   ```sh
+   pnpm install
+   ```
+
+3. Start development server
+
+   ```sh
+   pnpm run dev
+   ```
+
+> [!IMPORTANT]
+> While this project using [`electron-vite`](https://electron-vite.org) and its bundler, in order to add packages, install package for main process as `devDependencies` while for renderer process as `dependencies`. For example:
+>
+> ```sh
+> # main process
+> pnpm add -D mime
+>
+> # renderer process
+> pnpm add solid-router
+> ```
 
 ## Issues and feature requests
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation, or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
