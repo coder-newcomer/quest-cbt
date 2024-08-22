@@ -25,16 +25,7 @@ To set up a development environment, please follow these steps:
    pnpm run dev
    ```
 
-> [!IMPORTANT]
-> While this project using [`electron-vite`](https://electron-vite.org) and its bundler, in order to add packages, install package for main process as `devDependencies` while for renderer process as `dependencies`. For example:
->
-> ```sh
-> # main process
-> pnpm add -D mime
->
-> # renderer process
-> pnpm add solid-router
-> ```
+4. The development splitted to both [backend](../src/main) and [frontend](../src/renderer), please read each readme's for the guide.
 
 ## Issues and feature requests
 

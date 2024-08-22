@@ -1,6 +1,6 @@
-## Developing Renderer Process (Frontend)
+## Developing Main Process (Backend)
 
-Here's a brief guide to developing the renderer process (frontend), including code structure and directories.
+Here's a brief guide to developing the renderer process (backend), including code structure and directories.
 
 - [`index.html`](index.html) - The main HTML file for renderer, you shall NOT modify this file except for preprocessed properties which impossible to pass by JSX (e.g `<meta>`), instead:
 - [`src`](src) - Store everything in here, which:
@@ -13,5 +13,16 @@ Here's a brief guide to developing the renderer process (frontend), including co
 ## Libraries used
 
 - [Typescript](https://www.typescriptlang.org) - to prevents bugs caused by unexpected types inconsistencies. If you're coming from plain JavaScript background, go a bit [learn](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) of type-safety and type inference until you good to go.
-- [SolidJS](https://docs.solidjs.com/) - at first this project about to use [React](https://react.dev), but I think [this pretty new but performant](https://krausest.github.io/js-framework-benchmark/current.html) library is interesting. Why not give a shoot?
-- [Anime.js](https://animejs.com/) - I want some fluid animation for the frontend. Works well alongside SolidJS with [DOM Node](https://animejs.com/documentation/#domNode) or [Selector](https://animejs.com/documentation/#cssSelector).
+- [ElectronJS](https://electronjs.org) - The main framework used fusion with [Vite](https://vitejs.dev), by the help of [electron-vite](https://electron-vite.org) project scaffold.
+- Other available on [`package.json`](../../package.json)
+
+> [!IMPORTANT]
+> While this project using [`electron-vite`](https://electron-vite.org) and its bundler, in order to add packages, install package for main process as `devDependencies` while for renderer process as `dependencies`. For example:
+>
+> ```sh
+> # main process
+> pnpm add -D mime
+>
+> # renderer process
+> pnpm add solid-router
+> ```
