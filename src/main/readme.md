@@ -26,3 +26,5 @@ Here's a brief guide to developing the renderer process (backend), including cod
 > # renderer process
 > pnpm add solid-router
 > ```
+>
+> And looks like there's some problems with [pnpm](https://electron-vite.org/guide/troubleshooting#distribution). Using alternative (like [yarn](https://yarnpkg.com) or [npm](https://npmjs.com)) can be considered.
