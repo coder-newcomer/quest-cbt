@@ -1,6 +1,6 @@
 <div align="center">
 
-# <font size="7" align="center">📜 Quest CBT</font>
+# 📜 Quest CBT
 
 **An Electron application for creating and running Computer Based Test (CBT) on local network.**
 
