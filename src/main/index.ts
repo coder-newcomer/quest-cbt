@@ -5,6 +5,7 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 
 import protocolServer from './server'
+import ipcHandler from './ipcHandler'
 
 // Set flags
 app.commandLine.appendSwitch(
@@ -50,6 +51,9 @@ function createWindow(): void {
 app.whenReady().then(() => {
   // Start server
   protocolServer()
+
+  //IPC handler seperated module
+  ipcHandler()
 
   // Set app user model id for windows
   electronApp.setAppUserModelId('com.electron')
