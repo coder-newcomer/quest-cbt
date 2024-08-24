@@ -1,6 +1,7 @@
 # Security Policy
 
-> [!IMPORTANT] Report any Vulnerability you've found!
+> [!IMPORTANT]
+> Report any Vulnerability you've found!
 
 If there are any vulnerabilities in this project, don't hesitate to _report them_.
 
