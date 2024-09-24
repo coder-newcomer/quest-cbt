@@ -29,10 +29,10 @@ importers:
         version: 2.0.0(eslint@8.57.0)(typescript@5.5.4)
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
-        version: 1.0.1(@types/node@22.5.0)
+        version: 1.0.1(@types/node@22.6.1)
       '@types/node':
-        specifier: ^22.5.0
-        version: 22.5.0
+        specifier: ^22.6.1
+        version: 22.6.1
       electron:
         specifier: ^32.0.1
         version: 32.0.1
@@ -41,7 +41,7 @@ importers:
         version: 24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3))
       electron-vite:
         specifier: ^2.3.0
-        version: 2.3.0(vite@5.4.2(@types/node@22.5.0))
+        version: 2.3.0(vite@5.4.2(@types/node@22.6.1))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -65,10 +65,10 @@ importers:
         version: 5.5.4
       vite:
         specifier: ^5.4.2
-        version: 5.4.2(@types/node@22.5.0)
+        version: 5.4.2(@types/node@22.6.1)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0))
+        version: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.6.1))
 
 packages:
 
@@ -584,8 +584,8 @@ packages:
   '@types/node@20.16.1':
     resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
 
-  '@types/node@22.5.0':
-    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
+  '@types/node@22.6.1':
+    resolution: {integrity: sha512-V48tCfcKb/e6cVUigLAaJDAILdMP0fUW6BidkPK4GpGjXcfbnoHasCZDwz3N3yVt5we2RHm4XTQCpv0KJz9zqw==}
 
   '@types/plist@3.0.5':
     resolution: {integrity: sha512-E6OCaRmAe4WDmWNsL/9RMqdkkzDCY1etutkflWk4c+AcjDU07Pcz1fQwTX0TQz+Pxqn9i4L1TU3UFpjnrcDgxA==}
@@ -2342,9 +2342,9 @@ snapshots:
     dependencies:
       electron: 32.0.1
 
-  '@electron-toolkit/tsconfig@1.0.1(@types/node@22.5.0)':
+  '@electron-toolkit/tsconfig@1.0.1(@types/node@22.6.1)':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
 
   '@electron-toolkit/utils@3.0.0(electron@32.0.1)':
     dependencies:
@@ -2650,7 +2650,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -2661,13 +2661,13 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
 
   '@types/http-cache-semantics@4.0.4': {}
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
 
   '@types/ms@0.7.34': {}
 
@@ -2675,26 +2675,26 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/node@22.5.0':
+  '@types/node@22.6.1':
     dependencies:
       undici-types: 6.19.8
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
       xmlbuilder: 15.1.1
     optional: true
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
 
   '@types/verror@1.10.10':
     optional: true
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
     optional: true
 
   '@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)':
@@ -3274,7 +3274,7 @@ snapshots:
 
   electron-to-chromium@1.5.13: {}
 
-  electron-vite@2.3.0(vite@5.4.2(@types/node@22.5.0)):
+  electron-vite@2.3.0(vite@5.4.2(@types/node@22.6.1)):
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-arrow-functions': 7.24.7(@babel/core@7.25.2)
@@ -3282,7 +3282,7 @@ snapshots:
       esbuild: 0.21.5
       magic-string: 0.30.11
       picocolors: 1.0.1
-      vite: 5.4.2(@types/node@22.5.0)
+      vite: 5.4.2(@types/node@22.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4349,7 +4349,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0)):
+  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.6.1)):
     dependencies:
       '@babel/core': 7.25.2
       '@types/babel__core': 7.20.5
@@ -4357,23 +4357,23 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.8.21
       solid-refresh: 0.6.3(solid-js@1.8.21)
-      vite: 5.4.2(@types/node@22.5.0)
-      vitefu: 0.2.5(vite@5.4.2(@types/node@22.5.0))
+      vite: 5.4.2(@types/node@22.6.1)
+      vitefu: 0.2.5(vite@5.4.2(@types/node@22.6.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.2(@types/node@22.5.0):
+  vite@5.4.2(@types/node@22.6.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 22.5.0
+      '@types/node': 22.6.1
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.2(@types/node@22.5.0)):
+  vitefu@0.2.5(vite@5.4.2(@types/node@22.6.1)):
     optionalDependencies:
-      vite: 5.4.2(@types/node@22.5.0)
+      vite: 5.4.2(@types/node@22.6.1)
 
   which@2.0.2:
     dependencies:
