@@ -39,7 +39,7 @@
     "file-type": "^19.4.1",
     "mime": "^4.0.4",
     "prettier": "^3.3.3",
-    "solid-js": "^1.8.21",
+    "solid-js": "^1.9.2",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
     "vite-plugin-solid": "^2.10.2"
